@@ -27,7 +27,7 @@
 .masonry { 
   display: flex;
   flex-flow: column wrap;
-  /*max-height: 800px;*/
+  max-height: 900px;
   margin-left: -2px; /* Adjustment for the gutter */
   width: 100%;
 }
