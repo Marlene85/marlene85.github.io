@@ -70,7 +70,14 @@ https://github.com/philipwalton/solved-by-flexbox*/
 }
 
 /* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 732px) {
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
   .column {
     -ms-flex: 100%;
     flex: 100%;
